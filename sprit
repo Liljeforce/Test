@@ -1,0 +1,8 @@
+var ålder=prompt("Hur gammal är du?");
+if (ålder>18) {
+   alert("Du får dricka sprit!");
+} else if (ålder==18) {
+   alert("Du får äntligen dricka sprit, grattis!");
+} else {
+    alert("Du får inte dricka sprit.");
+}
